@@ -2,11 +2,11 @@
 
 # DandaraAI
 
-**Your AI-powered sales assistant for social media**
+**An AI operating layer for work, sales, documents, desktop automation and business communication.**
 
-DandaraAI is a desktop application that automates sales conversations on Instagram, Facebook, and WhatsApp — powered by AI, built for small businesses and independent sellers.
+[**Download**](https://github.com/SkylineTech-One/DandaraAI/releases/latest) · [**Website**](https://dandara.skylinetechone.com) · [**Beta Access**](https://dandara.skylinetechone.com/beta)
 
-[**Download**](https://github.com/SkylineTech-One/DandaraAI/releases) · [**Website**](https://dandaraai.com) · [**Beta Access**](https://dandaraai.com/beta)
+English · [Português](README.pt.md) · [Español](README.es.md) · [Français](README.fr.md)
 
 </div>
 
@@ -14,55 +14,57 @@ DandaraAI is a desktop application that automates sales conversations on Instagr
 
 ## What is DandaraAI?
 
-DandaraAI lets you set up an AI agent that handles your sales conversations automatically. You define your products, configure how the agent should communicate, and connect your social channels — the agent does the rest.
+DandaraAI is a desktop and mobile AI assistant ecosystem built by SkylineTech. It connects natural language, WhatsApp, CRM, documents, scheduling, files, local desktop control, developer workflows and custom mini apps into one assistant that can understand requests and execute work.
 
-It runs entirely on your computer as a native desktop app (no server required), so your conversations and data stay with you.
+The sales assistant is one important module, but Dandara is broader than sales: it is designed to help individuals, small businesses and teams run daily operations from chat, voice, WhatsApp or desktop.
 
-## Features
+## Product surfaces
 
-**Product Catalog**
-Add your products with prices, descriptions, and stock status. The agent uses the catalog to answer customer questions accurately and never invents information.
+| Surface | Purpose |
+|---|---|
+| **Dandara Desktop** | Local AI workspace for chat, agents, skills, files, desktop automation and business modules. |
+| **Dandara App** | Mobile experience for voice, chat, files, CRM, WhatsApp workflows and mini apps. |
+| **WhatsApp bridge** | Lets Dandara receive, answer and automate business conversations from WhatsApp. |
+| **Mini Apps** | Lightweight custom apps for sales, inventory, finance, dashboards, onboarding and internal workflows. |
+| **Skills and agents** | Reusable AI capabilities for writing, coding, research, operations, automation and business tasks. |
 
-**AI Agent Setup**
-Configure your agent's name, language, and tone (formal, friendly, or casual). Built-in guardrails ensure the agent always stays on topic, identifies itself as an assistant, and never negotiates prices outside what you've defined. You can also add custom rules on top.
+## Core capabilities
 
-**Social Channels**
-Connect Instagram, Facebook, and WhatsApp. The agent monitors incoming messages and replies on your behalf, within the daily limits of each platform.
-
-**Post Scheduler**
-Schedule promotional posts across your connected channels. Use the AI generator to draft content based on your products, or write your own.
-
-**Conversations**
-Monitor all active conversations in real time. Take over any conversation manually when needed, or mark them as resolved.
-
-**Dashboard**
-Overview of your active products, connected channels, posts scheduled today, and open conversations — all in one place.
+- **Natural language and voice** - talk to Dandara by text or voice and keep context across channels.
+- **WhatsApp AI** - reply to customers, schedule follow-ups, send files and keep the business conversation moving.
+- **CRM and customer memory** - track contacts, conversations, opportunities and customer history.
+- **Documents and Office work** - generate proposals, reports, invoices, PDFs, spreadsheets and professional emails.
+- **Desktop automation** - open apps, search files, take screenshots and operate local tools with explicit permissions.
+- **Sales workflows** - product catalog, AI sales agent, Instagram/Facebook/WhatsApp connections, post scheduling and human handoff.
+- **Developer and product work** - generate and review code, create GitHub issues, summarize sprints and automate scripts.
+- **Integrations** - designed to connect with tools such as Gmail, Google Calendar, Drive, Slack, Notion, Trello, GitHub, HubSpot, Jira and Stripe.
+- **Scheduled work** - daily reports, reminders, follow-ups and heartbeat tasks.
+- **Safety controls** - local-first desktop behavior, sandboxing, audit logs, risk policies and human confirmation for sensitive actions.
 
 ## Download
 
-Go to the [**Releases**](https://github.com/SkylineTech-One/DandaraAI/releases) page to download the latest version for your platform.
+Latest public installer release: **v0.7.0**
 
-| Platform | Architecture | Format |
-|----------|-------------|--------|
-| macOS | Apple Silicon (M1–M4) | `.dmg` |
-| macOS | Intel (x86_64) | `.dmg` |
-| Windows | x64 | `.exe` |
-| Linux | x64 | `.AppImage` / `.deb` |
+| Platform | Architecture | File |
+|---|---:|---|
+| macOS | Apple Silicon | [Dandara.AI-0.7.0-mac-arm64.dmg](https://github.com/SkylineTech-One/DandaraAI/releases/download/v0.7.0/Dandara.AI-0.7.0-mac-arm64.dmg) |
+| macOS | Intel x64 | [Dandara.AI-0.7.0-mac-x64.dmg](https://github.com/SkylineTech-One/DandaraAI/releases/download/v0.7.0/Dandara.AI-0.7.0-mac-x64.dmg) |
+| Windows | x64 | [Dandara.AI-0.7.0-win-x64.exe](https://github.com/SkylineTech-One/DandaraAI/releases/download/v0.7.0/Dandara.AI-0.7.0-win-x64.exe) |
+| Windows | ARM64 | [Dandara.AI-0.7.0-win-arm64.exe](https://github.com/SkylineTech-One/DandaraAI/releases/download/v0.7.0/Dandara.AI-0.7.0-win-arm64.exe) |
+| Linux | amd64 | [Dandara.AI-0.7.0-linux-amd64.deb](https://github.com/SkylineTech-One/DandaraAI/releases/download/v0.7.0/Dandara.AI-0.7.0-linux-amd64.deb) |
+| Linux | ARM64 | [Dandara.AI-0.7.0-linux-arm64.deb](https://github.com/SkylineTech-One/DandaraAI/releases/download/v0.7.0/Dandara.AI-0.7.0-linux-arm64.deb) |
 
-**System requirements:** macOS 12+, Windows 10+, or a recent Linux distribution.
+System requirements: macOS 12+, Windows 10/11, or a recent Debian/Ubuntu-based Linux distribution.
 
 ## About this repository
 
-This repository is the public home for DandaraAI releases and demos. It contains:
+This repository is the public home for DandaraAI releases, downloads and product information. The application source code is maintained privately by the SkylineTech team.
 
-- **Releases** — downloadable binaries for each version
-- **Changelog** — what changed in each release (see the Releases page)
+GitHub may show automatically generated "Source code" archives on the Releases page. Those archives only contain the public files in this repository, not the private Dandara application source code.
 
-The application source code is maintained privately by the [SkylineTech](https://github.com/SkylineTech-One) team.
+## License
 
-## Staying up to date
-
-Watch this repository (top right → **Watch → Releases only**) to get notified whenever a new version is published.
+No source code license is granted from this repository. DandaraAI is proprietary software by SkylineTech.
 
 ---
 
